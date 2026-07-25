@@ -17,7 +17,6 @@ st.title("👤 Player Analytics")
 
 st.write("Analyse the performance of any player throughout the FIFA World Cup 2026.")
 
-
 players = sorted(df["player_name"].unique())
 
 selected_player = st.selectbox(
